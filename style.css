@@ -133,7 +133,7 @@ section {
 .section-inner h4 {
     font-size: 35px;
     margin-bottom: 10px;
-    font-weight: 100;
+    font-weight: 200;
     animation: fadeInUp 0.5s ease-in-out 0.2s;
     animation-fill-mode: both;
 }
