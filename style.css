@@ -630,6 +630,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: end;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
     justify-content: center;
     padding: 50px;
     width: 100%;
