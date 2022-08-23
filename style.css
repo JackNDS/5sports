@@ -146,6 +146,29 @@ section {
     animation-fill-mode: both;
 }
 
+.court-hire .section-inner h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
+.training-pitch .section-inner h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+.full-field .section-inner h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
 .section-inner a {
     animation: fadeInUp 0.5s ease-in-out 0.4s;
     animation-fill-mode: both;
@@ -186,6 +209,26 @@ section {
 
 .section-d.coaching {
     background-image: url(./section-coaching.webp);
+}
+
+.section-d.court-hire{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./courthirebanner.webp);
+    background-size: cover;
+    border-top: 4px solid #EF5A2A;
+    border-bottom: 4px solid #EF5A2A;
+}
+
+.section-d.training-pitch{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./training\ pitch.jpeg);
+    background-size: cover;
+    border-bottom: 4px solid #EF5A2A;
+}
+
+.section-d.full-field{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./full\ field.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #EF5A2A;
 }
 
 .section-e{
@@ -275,6 +318,14 @@ section {
     background-size: cover;
 }
 
+.bg-hire{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./5sports1.webp);
+    height: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .section-inner-center{
     position: absolute;
@@ -296,6 +347,10 @@ section {
     width: 80%;
 }
 
+.section-inner-center.party .btn2{
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
 
 
 .section-full-rules .section-inner-center{
@@ -771,6 +826,9 @@ footer ul li a:hover{
     .section-d.coaching{
         height: 40vh;
     }
+
+
+
 
     .section-d.coaching .section-inner-b h2{
         font-size: 40px;
