@@ -348,6 +348,10 @@ section {
     flex-wrap: wrap;
 }
 
+.my-account .btn-container{
+    flex-wrap: wrap;
+}
+
 .pass-info .btn-container .btn-text{
     font-size: 15px;
 }
@@ -368,6 +372,13 @@ section {
 .bg-party{
     height: 80vh;
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./section-f.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-my5{
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./my5banner.jpeg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
@@ -524,6 +535,10 @@ section {
 }
 .section-inner-center.party a{
     color: #EF5A2A;
+    font-weight: 700;
+}
+.section-inner-center.my-account a{
+    color: #231F20;
     font-weight: 700;
 }
 
@@ -1188,6 +1203,9 @@ footer ul li a:hover{
     }
     .kbfa .section-inner{
         bottom: 0px;
+    }
+    .my-account .btn-container{
+        margin-top: 50px;
     }
 
 }
