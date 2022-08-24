@@ -161,6 +161,19 @@ section {
     animation: fadeInUp 0.5s ease-in-out 0.2s;
     animation-fill-mode: both;
 }
+
+.kbfa .section-inner h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    animation: fadeInUp 0.5s ease-in-out 0.2s;
+    animation-fill-mode: both;
+}
+
+.kbfa .section-inner{
+    bottom: 80px;
+}
+
 .full-field .section-inner h4 {
     font-size: 20px;
     margin-bottom: 10px;
@@ -222,6 +235,32 @@ section {
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./training\ pitch.jpeg);
     background-size: cover;
     border-bottom: 4px solid #EF5A2A;
+}
+
+
+.section-d.kbfa{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./kbfabanner.webp);
+    background-size: cover;
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+}
+
+.section-d.shiresoccer{
+    background: #5fa7d1;
+    border-bottom: 4px solid #fff;
+}
+.section-d.prodigy{
+    background:url(./prodigybanner.webp);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fff;
+}
+
+.section-d.littlekickers{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./lkbanner.png);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid #fff;
 }
 
 .section-d.full-field{
@@ -301,6 +340,22 @@ section {
     position: relative;
 }
 
+.pass-info{
+    padding: 80px;
+}
+.pass-info .btn-container{
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.pass-info .btn-container .btn-text{
+    font-size: 15px;
+}
+.pass-info .btn-container .btn{
+    padding: 10px 20px;
+}
+
+
 .section-animate{
     animation: fadeIn 2s ease-in-out;
     height: 100vh;
@@ -325,6 +380,13 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-coaching{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./coaching.webp);
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 .section-inner-center{
@@ -345,6 +407,47 @@ section {
     text-transform: uppercase;
     text-align: center;
     width: 80%;
+}
+
+.section-inner-center.coaching{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.section-inner-center.coaching p{
+    font-weight: 300;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.coaching-partners{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 40px;
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
+
+.partner{
+    margin: 0px 20px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.partner:hover{
+    transform: translateY(-10px);
+}
+
+.partner img{
+    width: 170px;
 }
 
 .section-inner-center.party .btn2{
@@ -406,6 +509,16 @@ section {
     margin-bottom: 70px;
 }
 
+.comp-pass-link a{
+    color: #EF5A2A;
+    font-size: 20px;
+}
+
+.comp-pass-link .btn2{
+    animation: fadeInUp 0.5s ease-in-out 0.4s;
+    animation-fill-mode: both;
+}
+
 .section-inner-center.party p{
     margin-bottom: 20px;
 }
@@ -420,6 +533,14 @@ section {
 
 .section-pass .section-inner-b h4{
     font-weight: 300;
+}
+
+.terms-links a{
+    color: #EF5A2A;
+}
+
+.pass-terms{
+     margin-top: 40px;
 }
 
 .image-center{
@@ -785,6 +906,10 @@ footer ul li a:hover{
         text-align: center;
     }
 
+    .kbfa .section-inner{
+        bottom: 20px;
+    }
+
     .section-inner h2{
         font-size: 45px;
         margin-bottom: 30px;
@@ -931,6 +1056,13 @@ footer ul li a:hover{
     .section-full-rules .section-inner-center p{
         width: 280px;
     }
+
+    .pass-info{
+        padding-top: 170px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 500px){
@@ -985,6 +1117,20 @@ footer ul li a:hover{
         font-weight: 300;
     }
 
+    .section-inner-center.coaching p{
+        font-weight: 300;
+        font-size: 16px;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .coaching-partners{
+        width: 100%;
+    }
+    .partner img{
+        width: 140px;
+    }
+
     
 
     .btn{
@@ -1030,6 +1176,18 @@ footer ul li a:hover{
     .full-rules-container{
         margin-top: 100px;
         padding: 20px;
+    }
+    .section-full-rules .comp-pass-link h3{
+        font-size: 24px;
+    }
+    .section-full-rules .comp-pass-link a{
+        font-size: 16px;
+    }
+    .section-full-rules .comp-pass-link p{
+        margin-bottom: 20px;
+    }
+    .kbfa .section-inner{
+        bottom: 0px;
     }
 
 }
@@ -1113,6 +1271,16 @@ footer ul li a:hover{
     .section-inner-b.comp-pass h4{
         font-size: 16px;
         font-weight: 300;
+    }
+    .section-full-rules .comp-pass-link h3{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .partner img{
+        width: 120px;
+    }
+    .kbfa .section-inner{
+        top: 120px;
     }
 }
 
