@@ -202,7 +202,9 @@ section {
 /* Background Images */
 .section-a{
     height: 100vh;
-    background-image: url(./5sports1.webp)
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./5sportsabove.webp);
+    background-position: center;
+    background-size: cover;
 }
 
 .section-b{
@@ -212,7 +214,8 @@ section {
 
 .section-c{
     height: 60vh;
-    background-image: url(./section-c.webp)
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(./section-c.webp);
+    background-position: center;
 }
 
 .section-d{
@@ -342,6 +345,7 @@ section {
 
 .pass-info{
     padding: 80px;
+    z-index: -1;
 }
 .pass-info .btn-container{
     margin-top: 30px;
@@ -366,7 +370,9 @@ section {
 }
 
 .bg-comps{
-    background-image: url(./5sports1.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./compsbanner.webp);
+    background-size: cover;
+    background-position: bottom;
 }
 
 .bg-party{
@@ -528,6 +534,7 @@ section {
 .comp-pass-link .btn2{
     animation: fadeInUp 0.5s ease-in-out 0.4s;
     animation-fill-mode: both;
+    z-index: 99;
 }
 
 .section-inner-center.party p{
@@ -811,6 +818,20 @@ section {
 
 .mobile-main-menu .my5 a:hover{
     color: #000;
+}
+
+.mobile-main-menu ul .mail5{
+    border: none;
+    margin-top: 40px;
+    padding-top: 8px;
+    background: #fff;
+    width: 70%;
+    text-align: center;
+}
+
+.mobile-main-menu ul .mail5 a{
+    color: #000;
+    font-weight: 700;
 }
 
 
@@ -1299,6 +1320,14 @@ footer ul li a:hover{
     }
     .kbfa .section-inner{
         top: 120px;
+    }
+    .mobile-main-menu ul .mail5{
+        margin-top: 10px;
+        
+    }
+
+    .mobile-main-menu ul li:first-child{
+        margin-top: 30px;
     }
 }
 
