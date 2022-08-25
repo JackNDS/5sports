@@ -382,10 +382,19 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .bg-my5{
     height: 100vh;
     background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./my5banner.jpeg);
     background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-staff{
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./staff.webp);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -626,6 +635,14 @@ section {
     transform: skewX(15deg);
 }
 
+.staff-btn{
+    flex-direction: column;
+}
+
+.staff-mobile{
+    margin-top: 30px;
+}
+
 .btn .hover{
     position: absolute;
     top: 0;
@@ -680,7 +697,7 @@ section {
     bottom: 25px;
     left: 50%;
     transform: translate(-50%, -50%);
-    animation: fadeBounce 4s infinite;
+    animation: fadeBounce 2.5s infinite;
 }
 
 /* Hamburger Menu */
