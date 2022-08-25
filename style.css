@@ -327,6 +327,10 @@ section {
 .bg-rules{
     background-color: rgb(20, 23, 29);
 }
+.bg-rules2{
+    background-color: #fff;
+}
+
 
 .rules-img{
     display: flex;
@@ -393,16 +397,16 @@ section {
 
 .bg-staff{
     height: 100vh;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./staff.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./staff.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .bg-hire{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./5sports1.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./staff.webp);
     height: 80vh;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -423,6 +427,16 @@ section {
     text-transform: uppercase;
     text-align: center;
     width: 80%;
+}
+
+.section-inner-center.ch1{
+    position: absolute;
+    bottom: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    width: 70%;
 }
 
 .section-inner-center.party{
@@ -461,6 +475,10 @@ section {
     margin-top: 40px;
     animation: fadeInUp 0.5s ease-in-out 0.4s;
     animation-fill-mode: both;
+}
+
+.hire7{
+   background-color: rgb(20, 23, 29);
 }
 
 .partner{
@@ -1116,6 +1134,8 @@ footer ul li a:hover{
         padding-right: 20px;
         text-align: center;
     }
+
+    
 }
 
 @media (max-width: 500px){
