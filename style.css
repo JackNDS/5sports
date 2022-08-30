@@ -202,7 +202,7 @@ section {
 /* Background Images */
 .section-a{
     height: 100vh;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./5sportsabove.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./5sportsabove2.webp);
     background-position: center;
     background-size: cover;
 }
