@@ -202,9 +202,10 @@ section {
 /* Background Images */
 .section-a{
     height: 100vh;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./5sportsabove2.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url(./5sportsabove2.webp);
     background-position: center;
     background-size: cover;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .section-b{
@@ -260,7 +261,7 @@ section {
 }
 
 .section-d.littlekickers{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./lkbanner.png);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./lkbanner.webp);
     background-size: cover;
     background-position: center;
     border-bottom: 4px solid #fff;
@@ -378,7 +379,7 @@ section {
 }
 
 .bg-comps{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./compsbanner.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(./compsbanner2.webp);
     background-size: cover;
     background-position: bottom;
 }
@@ -401,7 +402,7 @@ section {
 
 .bg-staff{
     height: 100vh;
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./staff.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)), url(./staff2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -415,7 +416,7 @@ section {
     background-size: cover;
 }
 .bg-coaching{
-    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./coaching.webp);
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(./coaching2.webp);
     height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
@@ -609,6 +610,24 @@ section {
 
 .image-center img{
     height: 120px;
+}
+
+.fixtures-btn{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 11;
+    
+}
+.fixtures-btn a{
+    font-size: 16px;
+    padding: 1rem, 2rem;
+    border-radius: 10px;
+    z-index: 11;
+    background-color: #000;
+    color: #fff;
+
 }
 
 .btn{
@@ -1033,6 +1052,9 @@ footer ul li a:hover{
         height: 40vh;
     }
 
+    .fixtures-btn{
+        display: none;
+    }
 
 
 
