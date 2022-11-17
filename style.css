@@ -456,7 +456,7 @@ section {
 
 .section-inner-center{
     position: absolute;
-    bottom: 0%;
+    bottom: -10%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
@@ -1201,6 +1201,9 @@ footer ul li a:hover{
     .section-inner-center h3{
         font-size: 50px;
     }
+    .section-inner-center{
+        bottom: 20%;
+    }
     .section-inner-center p{
         font-size: 20px;
     }
@@ -1222,6 +1225,9 @@ footer ul li a:hover{
 
     .section-inner{
         min-width: 450px;
+    }
+    .section-inner-center{
+        bottom: 0%;
     }
     .section-inner-center h3{
         font-size: 40px;
