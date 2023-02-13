@@ -258,6 +258,10 @@ section {
     background-image: url(./section-d.webp)
 }
 
+ 
+
+
+
 .section-d.coaching {
     background-image: url(./section-coaching.webp);
 }
@@ -1046,6 +1050,49 @@ footer ul li a{
 footer ul li a:hover{
     color: #aaa;
 }
+
+
+/* Gallery */
+
+.gallery {
+    padding: 30px;
+    background-color: #000;
+    height: auto;
+    background: #2b2c2f;
+  }
+
+  
+  .gallery-container {
+    max-width: 860px;
+    margin: auto;
+    border: #EF5A2A solid 5px;
+    border-radius: 10px;
+    background: #111;
+  }
+  
+  .main-img img,
+  .imgs img {
+    width: 100%;
+  }
+  
+  .imgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+  }
+  
+  @keyframes fadeIN {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-img {
+    opacity: 0;
+    animation: fadeIN 0.5s ease-in 1 forwards;
+  }
+  
+  /* End of Gallery */
 
 /* Animations */
 
