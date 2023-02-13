@@ -65,6 +65,10 @@ section {
     max-width: 800px;
 }
 
+.section-a .section-inner{
+    top: 37%;
+}
+
 .inner-c{
     position: absolute;
     bottom: 130px;
@@ -456,7 +460,17 @@ section {
 
 .section-inner-center{
     position: absolute;
-    bottom: -5%;
+    bottom: -25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+}
+
+.field-hire{
+    position: absolute;
+    bottom: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
