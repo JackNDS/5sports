@@ -1054,45 +1054,124 @@ footer ul li a:hover{
 
 /* Gallery */
 
+/* Gallery styles */
 .gallery {
-    padding: 30px;
-    background-color: #000;
-    height: auto;
-    background: #2b2c2f;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    transition: transform .2s;
   }
 
-  
-  .gallery-container {
-    max-width: 860px;
-    margin: auto;
-    border: #EF5A2A solid 5px;
-    border-radius: 10px;
-    background: #111;
+  .column img:hover {
+    transform: scale(1.1);
   }
   
-  .main-img img,
-  .imgs img {
+  /* Lightbox styles */
+  .lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
     width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
   }
   
-  .imgs {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 3px;
+  .lightbox-image {
+    max-height: 90%;
+    max-width: 90%;
+    margin-top: 20px;
   }
   
-  @keyframes fadeIN {
-    to {
-      opacity: 1;
+  .close {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    cursor: pointer;
+  }
+  
+  .prev-arrow,
+  .next-arrow {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .prev-arrow {
+    left: 20px;
+  }
+  
+  .next-arrow {
+    right: 20px;
+  }
+  
+  /* Media queries */
+  @media only screen and (max-width: 1200px) {
+    .gallery {
+      max-width: 800px;
     }
   }
   
-  .fade-in-img {
-    opacity: 0;
-    animation: fadeIN 0.5s ease-in 1 forwards;
+  @media only screen and (max-width: 992px) {
+    .column {
+      flex: 33.33%;
+      max-width: 33.33%;
+    }
   }
   
+  @media only screen and (max-width: 768px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  
+    .lightbox-image {
+      max-height: 70%;
+    }
+  
+    .prev-arrow,
+    .next-arrow {
+      font-size: 40px;
+    }
+  }
+  
+
   /* End of Gallery */
+  
 
 /* Animations */
 
