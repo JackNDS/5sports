@@ -1589,7 +1589,7 @@ footer ul li a:hover {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   .section-inner {
     min-width: 270px;
   }
@@ -1638,6 +1638,9 @@ footer ul li a:hover {
 
   .section-inner-center {
     top: 57%;
+  }
+  .shire-ice {
+    display: none;
   }
 
   .section-inner-center h3 {
@@ -1714,5 +1717,9 @@ footer ul li a:hover {
 
   .section-a .section-inner h2 {
     margin-bottom: 10px;
+  }
+
+  .section-inner-center.comps8 {
+    top: 53%;
   }
 }
