@@ -1248,6 +1248,9 @@ footer ul li a:hover {
   .section-inner-c h4 {
     font-size: 18px;
   }
+  .btn2 {
+    padding: 12px 28px;
+    font-size: 20px;
 }
 
 @media (max-width: 960px) {
