@@ -446,6 +446,15 @@ section {
   background-size: cover;
 }
 
+.bg-maintenance {
+  height: 150vh;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./compsbanner2.webp);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .bg-my5 {
   height: 100vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -492,6 +501,16 @@ section {
 }
 
 .field-hire {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  width: 80%;
+}
+
+.maintenance {
   position: absolute;
   bottom: 10%;
   left: 50%;
@@ -678,6 +697,15 @@ section {
 .image-center img {
   height: 120px;
 }
+
+.image-center.maintenance{
+  position: relative
+}
+
+.image-center.maintenance img {
+  height: 420px;
+}
+
 
 .fixtures-btn {
   position: absolute;
