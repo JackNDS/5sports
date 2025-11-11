@@ -352,6 +352,16 @@ section {
   position: relative;
 }
 
+.renovate{
+  position: relative;
+  height: 80vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .section-pass {
   height: 50vh;
   background: url(./comppassbanner.webp);
@@ -448,7 +458,7 @@ section {
 
 .bg-maintenance {
   height: 150vh;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./compsbanner2.webp);
   background-position: right;
   background-repeat: no-repeat;
@@ -698,13 +708,16 @@ section {
   height: 120px;
 }
 
-.image-center.maintenance{
-  position: relative
+
+
+.maintenance img {
+  position: absolute;
+  height: 500px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.image-center.maintenance img {
-  height: 420px;
-}
 
 
 .fixtures-btn {
