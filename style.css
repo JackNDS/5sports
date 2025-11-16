@@ -81,7 +81,7 @@ section {
 }
 
 .section-a .section-inner {
-  top: 37%;
+  top: 32%;
 }
 
 .inner-c {
@@ -1295,6 +1295,9 @@ footer ul li a:hover {
 }
 
 @media (max-width: 960px) {
+  .section-a .section-inner{
+    top: 38%;
+  }
   .section-inner {
     min-width: 600px;
     left: 50%;
