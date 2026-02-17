@@ -176,8 +176,12 @@ section {
 
 .booking-fee {
   color: #000;
-  font-weight: 300;
+  font-weight: 100;
   text-align: center;
+}
+
+.booking-fee a{
+  font-weight: 700;
 }
 
 .section-inner h4 {
