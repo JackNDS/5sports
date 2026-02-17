@@ -160,14 +160,24 @@ section {
   animation: fadeInUp 0.5s ease-in-out;
 }
 
+
+
 .center-msg h3 {
   font-size: 25px;
   font-weight: 800;
   color: #231f20;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .center-msg a {
   color: #ef5a2a;
+}
+
+.booking-fee {
+  color: #000;
+  font-weight: 700;
+  text-align: center;
 }
 
 .section-inner h4 {
@@ -404,12 +414,13 @@ section {
 }
 
 .section-h {
-  height: 10vh;
+  height: 100%;
   background-color: rgb(216, 216, 216);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+  padding: 30px;
 }
 
 .pass-info {
@@ -1650,6 +1661,9 @@ footer ul li a:hover {
 @media (max-width: 360px) {
   .section-inner {
     min-width: 270px;
+  }
+  .booking-fee{
+    font-size: 13px;
   }
 
   .section-inner h2 {
