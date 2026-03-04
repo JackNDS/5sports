@@ -85,7 +85,6 @@ section {
 }
 
 
-
 .inner-c {
   position: absolute;
   bottom: 130px;
@@ -1300,6 +1299,74 @@ footer ul li a:hover {
   }
 }
 
+/* Register Page */
+.bg-register{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(./staff.webp);
+    background-size: cover;
+    background-position: top;
+}
+
+.register-container{
+    max-width:1200px;
+    margin:0 auto;
+    padding:140px 40px 80px 40px;
+}
+
+.register-title{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.register-title h1{
+    font-size:60px;
+    font-weight:900;
+    font-style:italic;
+}
+
+.register-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:40px;
+}
+
+.event-card{
+    background:#1f2226;
+    padding:40px;
+    border-top:4px solid #ef5a2a;
+}
+
+.event-card h2{
+    font-size:35px;
+    font-weight:900;
+    margin-bottom:20px;
+}
+
+.event-card h3{
+    color:#ef5a2a;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+
+.event-card ul{
+    margin-bottom:25px;
+}
+
+.event-card li{
+    margin-bottom:8px;
+    font-weight:300;
+}
+
+.event-card li a{
+    font-weight:700;
+}
+
+.event-buttons{
+    margin-top:30px;
+}
+
+
+
 /* Media Queries */
 @media (max-width: 1150px) {
   .section-inner-c {
@@ -1531,6 +1598,14 @@ footer ul li a:hover {
     padding-right: 20px;
     text-align: center;
   }
+  .register-title h1{
+    font-size:45px;
+    margin-bottom:10px;
+    margin-top: 20px;
+}
+.register-title p{
+    font-size:14px;
+}
 }
 
 @media (max-width: 500px) {
