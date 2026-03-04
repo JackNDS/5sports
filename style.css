@@ -81,8 +81,10 @@ section {
 }
 
 .section-a .section-inner {
-  top: 32%;
+  top: 25%;
 }
+
+
 
 .inner-c {
   position: absolute;
@@ -347,6 +349,12 @@ section {
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(./section-e.jpg);
+}
+
+.home7{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .section-f {
@@ -669,6 +677,7 @@ section {
 .section-inner-center h3 {
   font-size: 70px;
   margin-bottom: 10px;
+  font-weight: 900;
   animation: fadeInUp 0.5s ease-in-out;
 }
 .section-inner-center p {
