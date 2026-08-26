@@ -82,12 +82,26 @@
             </svg>
         </div>
         <div class="btn-skew court-btn">
-            <a target="_blank" href="https://5sports.intrac.com.au/dashboard?page=space&location_id=1" popup class="btn">
-                <div class="hover"></div>
-                <div class="btn-text">
-                    <span>Book Now</span>
-                </div>
-            </a>
+            <a
+                    href="https://5sports.intrac.com.au/dashboard?page=space&location_id=1"
+                    class="btn"
+                    onclick="
+                        const width = 450;
+                        const height = 900;
+                        const left = (screen.width - width) / 2;
+                        const top = (screen.height - height) / 2;
+
+                        window.open(
+                        this.href,
+                        'bookingPopup',
+                        `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`
+                        );
+
+                        return false;
+                    "
+                    >
+                    Book Now
+                </a>
             </div>
     </div>
 
